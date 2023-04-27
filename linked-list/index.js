@@ -3,7 +3,7 @@ class LinkedList {
         this.head = null;
     }
 
-    add(value) {
+    append(value) {
         const newNode = {
             value,
             next: null
@@ -36,44 +36,49 @@ class LinkedList {
         }
     }
 
-    contains(value) {
+    prepend(value) {
+        const newNode = {
+            value,
+            next: this.head
+        };
+
+        this.head = newNode;
+    }
+
+    insert(value, index) {
+        if (index === 0) {
+            this.prepend(value);
+            return;
+        }
+
+        const newNode = {
+            value,
+            next: null
+        };
+
+        let current = this.head;
+        let previous = null;
+        let i = 0;
+
+        while (i < index) {
+            previous = current;
+            current = current.next;
+            i++;
+        }
+
+        newNode.next = current;
+        previous.next = newNode;
+    }
+
+    search(value) {
         let current = this.head;
         while (current !== null) {
             if (current.value === value) {
-                return true;
+                return current;
             }
             current = current.next;
         }
-        return false;
-    }
-
-    [Symbol.iterator]() {
-        let current = this.head;
-        return {
-            next() {
-                if (current === null) {
-                    return {
-                        done: true
-                    };
-                }
-                const value = current.value;
-                current = current.next;
-                return {
-                    value,
-                    done: false
-                };
-            }
-        };
-    }
-
-    toString() {
-        let current = this.head;
-        let string = '';
-        while (current !== null) {
-            string += current.value + ' ';
-            current = current.next;
-        }
-        return string.trim();
+        return null;
     }
 }
 
