@@ -1,0 +1,19 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "study of algorithms",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graxz/algorithms.git"
+  },
+  "author": "Isaddora Freitas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/graxz/algorithms/issues"
+  },
+  "homepage": "https://github.com/graxz/algorithms#readme"
+}
