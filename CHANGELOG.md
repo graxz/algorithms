@@ -64,7 +64,7 @@ Explicação grafica de como pode funcionar um conjunto:
 
 #### União
 
-![image](https://user-images.githubusercontent.com/60474834/235030163-0a7c44ca-2afe-43fe-ab48-ee1fd43879bd.png)
+![image](https://user-images.githubusercontent.com/60474834/235219115-88d16919-c098-4845-bf76-3efa08fb8efa.png)
 
 #### Intersecção
 
