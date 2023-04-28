@@ -64,7 +64,7 @@ União de dois conjuntos
 
 Interseção de dois conjuntos
 
-![image](https://user-images.githubusercontent.com/60474834/235029951-51052ea4-7125-48d8-9caa-6bb3cceae7fa.png)
+![image](https://user-images.githubusercontent.com/60474834/235219983-6dd29d98-374b-4165-b4c5-d6676d7e5b38.png)
 
 #### Diferenças
 
