@@ -1,6 +1,6 @@
 {
   "name": "algorithms",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "study of algorithms",
   "main": "index.js",
   "scripts": {
