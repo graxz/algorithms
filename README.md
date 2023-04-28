@@ -72,4 +72,5 @@ Diferença de dois conjuntos
 #### Subconjunto
 
 Subconjunto de outro conjunto
+
 ![image](https://user-images.githubusercontent.com/60474834/235031302-21041cf3-9ac3-434f-80db-9d14b14b149c.png)
