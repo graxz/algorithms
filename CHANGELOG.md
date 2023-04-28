@@ -102,7 +102,7 @@ Explicação grafica de como funciona uma lista circular ligada:
 Listas duplamente ligadas são uma coleção de itens ordenados que seguem o principio (LIFO) Last In First Out, ou seja, o ultimo elemento a entrar é o primeiro a sair. As operações básicas de uma lista duplamente ligada são: `append` (adicionar um elemento no final da lista), `prepend` (adicionar um elemento no inicio da lista), `insert` (adicionar um elemento em uma posição especifica da lista), `remove` (remover um elemento da lista) e `search` (retornar a posição de um elemento na lista). A diferença entre uma lista duplamente ligada e uma lista ligada é que na lista duplamente ligada cada elemento possui uma referencia para o elemento anterior e para o elemento posterior.
 
 Explicação grafica de como funciona uma lista duplamente ligada:
-![image](https://user-images.githubusercontent.com/60474834/235016219-4227efa3-c728-408a-91af-16fc21563bed.png)
+![image](https://user-images.githubusercontent.com/60474834/235217334-1b779943-3ed6-4aba-8035-df9b3ecf1988.png)
 
 ---
 
