@@ -72,7 +72,7 @@ Explicação grafica de como pode funcionar um conjunto:
 
 #### Diferenças
 
-![image](https://user-images.githubusercontent.com/60474834/235030895-7a3a5b9e-ca85-441f-a372-8a0b055983ea.png)
+![image](https://user-images.githubusercontent.com/60474834/235220655-dff8b908-83b2-438b-88bf-21785092fe17.png)
 
 #### Subconjunto
 
