@@ -77,3 +77,43 @@ Diferença de dois conjuntos
 Subconjunto de outro conjunto
 
 ![image](https://user-images.githubusercontent.com/60474834/235031302-21041cf3-9ac3-434f-80db-9d14b14b149c.png)
+
+### Tabela Hash
+
+Uma tabela hash é uma estrutura de dados que associa chaves de pesquisa a valores, de modo que a busca dos dados se dê de forma rápida e direta. As operações básicas de uma tabela hash são: `put` (adicionar um elemento na tabela), `remove` (remover um elemento da tabela), `get` (retornar um elemento da tabela) e `contains` (verificar se um elemento existe na tabela).
+
+#### Como funciona a tabela hash simples?
+
+```
+  simpleHash(data) {
+    let total = 0;
+    for (let i = 0; i < data.length; i++) {
+      total += data.charCodeAt(i);
+    }
+      return total % this.table.length;
+  }
+```
+
+A função `simpleHash` é uma função simples de hash que recebe uma string e retorna um valor inteiro que será usado como indice para a tabela hash. A função percorre a string e soma o valor de cada caractere na variavel `total` e retorna o resto da divisão de `total` pelo tamanho da tabela hash.
+
+#### Como funciona a tabela hash com uma melhor distribuição?
+
+```
+  betterHash(data) {
+    const H = 37;
+    let total = 0;
+    for (let i = 0; i < data.length; i++) {
+      total += H * total + data.charCodeAt(i);
+    }
+    total = total % this.table.length;
+    if (total < 0) {
+      total += this.table.length - 1;
+    }
+    return parseInt(total);
+  }
+```
+
+A função `betterHash` é uma função de hash que recebe uma string e retorna um valor inteiro que será usado como indice para a tabela hash. A função percorre a string e multiplica o valor de `total` por 37 e soma o valor de cada caractere na variavel `total` e retorna o resto da divisão de `total` pelo tamanho da tabela hash. A função `betterHash` é mais eficiente que a função `simpleHash` pois ela distribui melhor os valores na tabela hash.
+
+Explicação grafica de como funciona uma tabela hash:
+![image](https://user-images.githubusercontent.com/60474834/235196823-f8501b02-3f8b-4aa8-81dd-ebec1b6b457a.png)
