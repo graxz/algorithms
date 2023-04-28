@@ -89,7 +89,7 @@ Explicação grafica de como pode funcionar um conjunto:
 Listas circulares ligadas são uma coleção de itens ordenados que seguem o principio (LIFO) Last In First Out, ou seja, o ultimo elemento a entrar é o primeiro a sair. As operações básicas de uma lista circulares ligada são: `append` (adicionar um elemento no final da lista), `prepend` (adicionar um elemento no inicio da lista), `insert` (adicionar um elemento em uma posição especifica da lista), `remove` (remover um elemento da lista) e `search` (retornar a posição de um elemento na lista). A diferença entre uma lista circular ligada e uma lista ligada é que na lista circular ligada o ultimo elemento possui uma referencia para o primeiro elemento.
 
 Explicação grafica de como funciona uma lista circular ligada:
-![image](https://user-images.githubusercontent.com/60474834/235025916-ac1e947a-761c-4da1-9d52-8e3ed52b5e59.png)
+![image](https://user-images.githubusercontent.com/60474834/235217960-3da9f385-f279-47a7-b5f1-1cffce3b5488.png)
 
 ---
 
