@@ -4,7 +4,7 @@
   "description": "study of algorithms",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
