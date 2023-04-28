@@ -68,7 +68,7 @@ Explicação grafica de como pode funcionar um conjunto:
 
 #### Intersecção
 
-![image](https://user-images.githubusercontent.com/60474834/235029951-51052ea4-7125-48d8-9caa-6bb3cceae7fa.png)
+![image](https://user-images.githubusercontent.com/60474834/235220025-456a13c9-f4a0-4387-bd69-491b2df1ecd6.png)
 
 #### Diferenças
 
