@@ -58,25 +58,25 @@ Explicação grafica de como pode funcionar um conjunto:
 
 União de dois conjuntos
 
-![image](https://user-images.githubusercontent.com/60474834/235219063-36669192-acb1-4190-8b72-2468c28642d3.png)
+![image](https://user-images.githubusercontent.com/60474834/235224120-9c86b01f-4bfb-4ecf-8828-c6c57ddd77b5.png)
 
 #### Intersecção
 
 Interseção de dois conjuntos
 
-![image](https://user-images.githubusercontent.com/60474834/235219983-6dd29d98-374b-4165-b4c5-d6676d7e5b38.png)
+![image](https://user-images.githubusercontent.com/60474834/235224259-37dc4f1a-0585-401a-a04d-3900ddc86ec4.png)
 
 #### Diferenças
 
 Diferença de dois conjuntos
 
-![image](https://user-images.githubusercontent.com/60474834/235220613-8159db16-569d-4d33-9e1a-df715390d06b.png)
+![image](https://user-images.githubusercontent.com/60474834/235224198-4ece6a6b-a53a-44e7-b7df-3277a2e74a0f.png)
 
 #### Subconjunto
 
 Subconjunto de outro conjunto
 
-![image](https://user-images.githubusercontent.com/60474834/235031302-21041cf3-9ac3-434f-80db-9d14b14b149c.png)
+![image](https://user-images.githubusercontent.com/60474834/235224954-9613de95-a415-48de-875e-5e988a827c03.png)
 
 ### Tabela Hash
 
