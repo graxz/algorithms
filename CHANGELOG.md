@@ -1,8 +1,14 @@
 # Arquivo de alterações do projeto.
 
+- Possiveis alterações:
+  - `Implementação` para novos recursos.
+  - `Refatoração` para alterações em recursos existentes.
+  - `Remoção` para recursos removidos.
+  - `Correção` para correções.
+
 ## 1.0.5 - 2023-04-27
 
-### Adicionado
+### Implementação
 
 - Adicionado classe `DoublyLinkedList` para criação de listas duplamente ligadas.
 
@@ -15,7 +21,7 @@ Explicação grafica de como funciona uma lista duplamente ligada:
 
 ## 1.0.4 - 2023-04-27
 
-### Adicionado
+### Implementação
 
 - Adicionado classe `LinkedList` para criação de listas ligadas.
 
@@ -28,7 +34,7 @@ Explicação grafica de como funciona uma lista ligada:
 
 ## 1.0.3 - 2023-04-27
 
-### Adicionado
+### Implementação
 
 - Adicionado classe `QueuePriority` para gerenciar filas com prioridade.
 
@@ -41,7 +47,7 @@ Explicação grafica de como funciona uma fila com prioridade:
 
 ## 1.0.2 - 2023-04-27
 
-### Adicionado
+### Implementação
 
 - Adicionado classe `Queue` para gerenciar filas.
 
@@ -52,7 +58,7 @@ Explicação grafica de como funciona uma fila:
 
 ---
 
-### Adicionado
+### Implementação
 
 - Adicionado classe `Stack` para gerenciar pilhas.
 
