@@ -115,7 +115,7 @@ Explicação grafica de como funciona uma lista duplamente ligada:
 Listas Ligadas são uma coleção de itens ordenados que seguem o principio (LIFO) Last In First Out, ou seja, o ultimo elemento a entrar é o primeiro a sair. As operações básicas de uma lista ligada são: `append` (adicionar um elemento no final da lista), `prepend` (adicionar um elemento no inicio da lista), `insert` (adicionar um elemento em uma posição especifica da lista), `remove` (remover um elemento da lista) e `search` (retornar a posição de um elemento na lista).
 
 Explicação grafica de como funciona uma lista ligada:
-![image](https://user-images.githubusercontent.com/60474834/234976457-5acfd3e9-f11e-472e-8eeb-9c5bb89accc0.png)
+![image](https://user-images.githubusercontent.com/60474834/235215664-78e63fc7-6d44-46a2-8562-7fb5244b9925.png)
 
 ---
 
