@@ -57,16 +57,19 @@ Explicação grafica de como pode funcionar um conjunto:
 #### União
 
 União de dois conjuntos
+
 ![image](https://user-images.githubusercontent.com/60474834/235030163-0a7c44ca-2afe-43fe-ab48-ee1fd43879bd.png)
 
 #### Intersecção
 
 Interseção de dois conjuntos
+
 ![image](https://user-images.githubusercontent.com/60474834/235029951-51052ea4-7125-48d8-9caa-6bb3cceae7fa.png)
 
 #### Diferenças
 
 Diferença de dois conjuntos
+
 ![image](https://user-images.githubusercontent.com/60474834/235030895-7a3a5b9e-ca85-441f-a372-8a0b055983ea.png)
 
 #### Subconjunto
