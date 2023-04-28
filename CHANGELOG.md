@@ -6,6 +6,19 @@
   - `Remoção` para recursos removidos.
   - `Correção` para correções.
 
+## 1.0.6 - 2023-04-27
+
+### Implementação
+
+- Adicionado classe `CircularLinkedList` para criação de listas circulares ligadas.
+
+Listas circulares ligadas são uma coleção de itens ordenados que seguem o principio (LIFO) Last In First Out, ou seja, o ultimo elemento a entrar é o primeiro a sair. As operações básicas de uma lista circulares ligada são: `append` (adicionar um elemento no final da lista), `prepend` (adicionar um elemento no inicio da lista), `insert` (adicionar um elemento em uma posição especifica da lista), `remove` (remover um elemento da lista) e `search` (retornar a posição de um elemento na lista). A diferença entre uma lista circular ligada e uma lista ligada é que na lista circular ligada o ultimo elemento possui uma referencia para o primeiro elemento.
+
+Explicação grafica de como funciona uma lista circular ligada:
+![image](https://user-images.githubusercontent.com/60474834/235025916-ac1e947a-761c-4da1-9d52-8e3ed52b5e59.png)
+
+---
+
 ## 1.0.5 - 2023-04-27
 
 ### Implementação
