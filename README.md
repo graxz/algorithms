@@ -58,7 +58,7 @@ Explicação grafica de como pode funcionar um conjunto:
 
 União de dois conjuntos
 
-![image](https://user-images.githubusercontent.com/60474834/235030163-0a7c44ca-2afe-43fe-ab48-ee1fd43879bd.png)
+![image](https://user-images.githubusercontent.com/60474834/235219063-36669192-acb1-4190-8b72-2468c28642d3.png)
 
 #### Intersecção
 
