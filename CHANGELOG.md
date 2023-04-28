@@ -64,19 +64,19 @@ Explicação grafica de como pode funcionar um conjunto:
 
 #### União
 
-![image](https://user-images.githubusercontent.com/60474834/235219115-88d16919-c098-4845-bf76-3efa08fb8efa.png)
+![image](https://user-images.githubusercontent.com/60474834/235224130-f1be0deb-cc7a-4f3f-abb3-ed230d800346.png)
 
 #### Intersecção
 
-![image](https://user-images.githubusercontent.com/60474834/235220025-456a13c9-f4a0-4387-bd69-491b2df1ecd6.png)
+![image](https://user-images.githubusercontent.com/60474834/235224270-309b1873-2979-4ab0-8cec-02e257cca2fa.png)
 
 #### Diferenças
 
-![image](https://user-images.githubusercontent.com/60474834/235220655-dff8b908-83b2-438b-88bf-21785092fe17.png)
+![image](https://user-images.githubusercontent.com/60474834/235224209-84b26dae-5755-4964-9d20-b59a50838b10.png)
 
 #### Subconjunto
 
-![image](https://user-images.githubusercontent.com/60474834/235031302-21041cf3-9ac3-434f-80db-9d14b14b149c.png)
+![image](https://user-images.githubusercontent.com/60474834/235224957-e6ed18dc-6feb-4cce-a73d-7397980b4e06.png)
 
 ---
 
