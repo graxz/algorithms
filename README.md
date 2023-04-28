@@ -70,7 +70,7 @@ Interseção de dois conjuntos
 
 Diferença de dois conjuntos
 
-![image](https://user-images.githubusercontent.com/60474834/235030895-7a3a5b9e-ca85-441f-a372-8a0b055983ea.png)
+![image](https://user-images.githubusercontent.com/60474834/235220613-8159db16-569d-4d33-9e1a-df715390d06b.png)
 
 #### Subconjunto
 
