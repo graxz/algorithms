@@ -6,6 +6,34 @@
   - `Remoção` para recursos removidos.
   - `Correção` para correções.
 
+## 1.0.7 - 2023-04-27
+
+### Implementação
+
+- Adicionado classe `Set` para criação de conjuntos.
+
+Conjuntos são uma coleção de itens não ordenados que não aceitam itens duplicados. As operações básicas de um conjunto são: `add` (adicionar um elemento), `remove` (remover um elemento), `union` (retornar a união de dois conjuntos), `intersection` (retornar a interseção de dois conjuntos), `difference` (retornar a diferença de dois conjuntos) e `subset` (verificar se um conjunto é subconjunto de outro conjunto).
+
+Explicação grafica de como pode funcionar um conjunto:
+
+#### União
+
+![image](https://user-images.githubusercontent.com/60474834/235030163-0a7c44ca-2afe-43fe-ab48-ee1fd43879bd.png)
+
+#### Intersecção
+
+![image](https://user-images.githubusercontent.com/60474834/235029951-51052ea4-7125-48d8-9caa-6bb3cceae7fa.png)
+
+#### Diferenças
+
+![image](https://user-images.githubusercontent.com/60474834/235030895-7a3a5b9e-ca85-441f-a372-8a0b055983ea.png)
+
+#### Subconjunto
+
+![image](https://user-images.githubusercontent.com/60474834/235031302-21041cf3-9ac3-434f-80db-9d14b14b149c.png)
+
+---
+
 ## 1.0.6 - 2023-04-27
 
 ### Implementação
