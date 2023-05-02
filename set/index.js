@@ -45,8 +45,8 @@ class Set {
         let biggerSet = values
         let smallerSet = otherValues
         if (otherValues.length - values.length > 0) {
-        biggerSet = otherValues
-        smallerSet = values
+            biggerSet = otherValues
+            smallerSet = values
         }
         smallerSet.forEach(value => {
         if (biggerSet.includes(value)) {

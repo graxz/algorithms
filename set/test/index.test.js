@@ -110,4 +110,51 @@ describe('Set', () => {
         const differenceSet = set1.difference(set2)
         expect(differenceSet.values()).toEqual(['1'])
     })
+
+    // Tests that the isSubsetOf method correctly identifies if one set is a subset of another set.
+    it("test_is_subset_of", () => {
+        const set1 = new Set()
+        set1.add(1)
+        set1.add(2)
+        set1.add(3)
+        const set2 = new Set()
+        set2.add(2)
+        set2.add(3)
+        expect(set2.isSubsetOf(set1)).toBe(true)
+    })
+
+    // Tests that the isSubsetOf method correctly identifies if one set is not a subset of another set.
+    it("test_is_not_subset_of", () => {
+        const set1 = new Set()
+        set1.add(1)
+        set1.add(2)
+        const set2 = new Set()
+        set2.add(2)
+        set2.add(3)
+        expect(set2.isSubsetOf(set1)).toBe(false)
+    })
+
+    // Tests that the isSubsetOf method when if this.size is greater than the otherSet size.
+    it("test_is_subset_of_when_this_size_greater_than_other_set_size", () => {
+        const set1 = new Set()
+        set1.size()
+        const set2 = new Set()
+        set2.add(2)
+        set2.add(3)
+        expect(set1.size()).toBe(0)
+        expect(set2.size()).toBe(2)
+        expect(set2.isSubsetOf(set1)).toBe(false)
+    })
+
+    // Tests that the intersection method when if this.size is greater than the otherSet size.
+    it("test_intersection_when_this_size_greater_than_other_set_size", () => {
+        const set1 = new Set()
+        set1.size()
+        const set2 = new Set()
+        set2.add(2)
+        set2.add(3)
+        expect(set1.size()).toBe(0)
+        expect(set2.size()).toBe(2)
+        expect(set1.intersection(set2).values()).toEqual([])
+    })
 })
