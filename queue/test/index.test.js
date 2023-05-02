@@ -52,4 +52,10 @@ describe('Queues', () => {
         queue.clear();
         expect(queue.size()).toBe(0);
     });
+
+    // Tests that isEmpty returns true when the queue is empty.
+    it("test_isEmpty_empty_queue", () => {
+        const queue = new Queue();
+        expect(queue.isEmpty()).toBe(true);
+    });
 })

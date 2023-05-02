@@ -45,6 +45,17 @@ describe('Doubly Linked List', () => {
         expect(list.length).toBe(2);
     });
 
+    // Tests that the remove method when while loop and if statement are not executed.
+    it("test_remove_not_executed", () => {
+        const list = new DoublyLinkedList();
+        list.append(1);
+        list.append(2);
+        list.remove(3);
+        expect(list.head.value).toBe(1);
+        expect(list.tail.value).toBe(2);
+        expect(list.length).toBe(2);
+    });
+
     // Tests that the insert method inserts a node at a non-zero index. 
     it("test_insert_non_zero_index", () => {
         const list = new DoublyLinkedList();
@@ -63,5 +74,23 @@ describe('Doubly Linked List', () => {
         list.append(1);
         list.append(2);
         expect(list.search(3)).toBeNull();
+    });
+
+    // Tests that the insert method if index is equal to 0.
+    it("test_insert_zero_index", () => {
+        const list = new DoublyLinkedList();
+        list.append(2);
+        list.insert(1, 0);
+        expect(list.head.value).toBe(1);
+        expect(list.head.next.value).toBe(2);
+        expect(list.length).toBe(2);
+    });
+
+    // Tests that the search method returns the node if value is found.
+    it("test_search_found", () => {
+        const list = new DoublyLinkedList();
+        list.append(1);
+        list.append(2);
+        expect(list.search(2).value).toBe(2);
     });
 })

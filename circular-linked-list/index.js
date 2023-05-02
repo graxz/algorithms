@@ -27,6 +27,8 @@ class CircularLinkedList {
 
         if (!this.tail) {
             this.tail = newNode;
+        } else {
+            this.tail.next = this.head;
         }
 
         this.tail.next = this.head;
@@ -62,7 +64,6 @@ class CircularLinkedList {
         return currentNode;
     }
 
-
     remove(value) {
         if (!this.head) {
             return null;
@@ -76,18 +77,14 @@ class CircularLinkedList {
 
         let currentNode = this.head;
 
-        while (currentNode.next) {
-            if (currentNode.next.value === value) {
-                currentNode.next = currentNode.next.next;
-                return;
-            }
-
+        while (currentNode.next.value !== value) {
             currentNode = currentNode.next;
         }
 
-        if (this.tail.value === value) {
+        currentNode.next = currentNode.next.next;
+
+        if (currentNode.next === this.head) {
             this.tail = currentNode;
-            this.tail.next = this.head;
         }
     }
 

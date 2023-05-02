@@ -41,4 +41,27 @@ describe('Hash Table', () => {
         const negativeHash = -1;
         expect(hashTable.table[negativeHash]).toBeUndefined();
     });
+
+    // Tests the behavior of the class when the table is empty. 
+    it("test_empty_table", () => {
+        const hashTable = new HashTable();
+        expect(hashTable.get("key")).toBeUndefined();
+        expect(hashTable.contains("key")).toBe(false);
+        hashTable.remove("key");
+        expect(hashTable.get("key")).toBeUndefined();
+    });
+
+    // Tests that the better hash function works as expected.
+    it("test_better_hash_function", () => {
+        const hashTable = new HashTable();
+        const hash = hashTable.betterHash("key");
+        expect(hash).toBe(95);
+    });
+
+    // Tests that the simple hash function works as expected.
+    it("test_simple_hash_function", () => {
+        const hashTable = new HashTable();
+        const hash = hashTable.simpleHash("key");
+        expect(hash).toBe(55);
+    });
 })
