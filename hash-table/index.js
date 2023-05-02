@@ -15,12 +15,11 @@ class HashTable {
         const H = 37;
         let total = 0;
         for (let i = 0; i < data.length; i++) {
-        total += H * total + data.charCodeAt(i);
+            total += H * total + data.charCodeAt(i);
         }
+        
         total = total % this.table.length;
-        if (total < 0) {
-        total += this.table.length - 1;
-        }
+
         return parseInt(total);
     }
 
