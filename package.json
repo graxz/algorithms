@@ -4,7 +4,7 @@
   "description": "study of algorithms",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --config jest.config.js --coverage"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/graxz/algorithms/issues"
   },
-  "homepage": "https://github.com/graxz/algorithms#readme"
+  "homepage": "https://github.com/graxz/algorithms#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
 }
