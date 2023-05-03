@@ -18,6 +18,7 @@ module.exports = {
         "set/*.js",
         "linear-search/*.js",
         "binary-search/*.js",
+        "jump-search/*.js",
     ],
     coverageDirectory: "__tests__/coverage",
     coverageReporters: [
