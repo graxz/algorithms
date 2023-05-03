@@ -2,17 +2,14 @@ const { describe } = require("node:test");
 const Set = require("../index");
 
 describe('Set', () => {
-    
-    // Tests that a new value can be added to the set. 
-    it("test_add_new_value", () => {
+    it("Should that a new value can be added to the set", () => {
         const set = new Set()
         expect(set.add(1)).toBe(true)
         expect(set.size()).toBe(1)
         expect(set.values()).toEqual(['1'])
     })
 
-    // Tests that a value can be deleted from the set. 
-    it("test_delete_value", () => {
+    it("Should that a value can be deleted from the set", () => {
         const set = new Set()
         set.add(1)
         expect(set.delete(1)).toBe(true)
@@ -20,8 +17,7 @@ describe('Set', () => {
         expect(set.values()).toEqual([])
     })
 
-    // Tests that adding a duplicate value to the set returns false and does not add the value. 
-    it("test_add_duplicate_value", () => {
+    it("Should that adding a duplicate value to the set returns false and does not add the value", () => {
         const set = new Set()
         set.add(1)
         expect(set.add(1)).toBe(false)
@@ -29,29 +25,25 @@ describe('Set', () => {
         expect(set.values()).toEqual(['1'])
     })
 
-    // Tests that deleting a value that doesn't exist in the set returns false and does not modify the set. 
-    it("test_delete_nonexistent_value", () => {
+    it("Should that deleting a value that doesn't exist in the set returns false and does not modify the set", () => {
         const set = new Set()
         expect(set.delete(1)).toBe(false)
         expect(set.size()).toBe(0)
         expect(set.values()).toEqual([])
     })
 
-    // Tests that the has method correctly identifies if a value is in the set. 
-    it("test_has_value", () => {
+    it("Should that the has method correctly identifies if a value is in the set", () => {
         const set = new Set()
         set.add(1)
         expect(set.has(1)).toBe(true)
     })
 
-    // Tests that the has method correctly identifies if a value that doesn't exist in the set is not in the set. 
-    it("test_has_nonexistent_value", () => {
+    it("Should that the has method correctly identifies if a value that doesn't exist in the set is not in the set", () => {
         const set = new Set()
         expect(set.has(1)).toBe(false)
     })
 
-    // Tests that the clear method empties the set. 
-    it("test_clear_set", () => {
+    it("Should that the clear method empties the set", () => {
         const set = new Set()
         set.add(1)
         set.clear()
@@ -59,24 +51,21 @@ describe('Set', () => {
         expect(set.values()).toEqual([])
     })
 
-    // Tests that the size method returns the correct size of the set. 
-    it("test_get_size", () => {
+    it("Should that the size method returns the correct size of the set", () => {
         const set = new Set()
         set.add(1)
         set.add(2)
         expect(set.size()).toBe(2)
     })
 
-    // Tests that the values method returns an array of all the values in the set. 
-    it("test_get_values", () => {
+    it("Should that the values method returns an array of all the values in the set", () => {
         const set = new Set()
         set.add(1)
         set.add(2)
         expect(set.values()).toEqual(['1', '2'])
     })
 
-    // Tests that the union method correctly combines two sets into a new set. 
-    it("test_union_sets", () => {
+    it("Should that the union method correctly combines two sets into a new set", () => {
         const set1 = new Set()
         set1.add(1)
         set1.add(2)
@@ -87,8 +76,7 @@ describe('Set', () => {
         expect(unionSet.values()).toEqual(['1', '2', '3'])
     })
 
-    // Tests that the intersection method correctly identifies the common values between two sets and returns a new set. 
-    it("test_intersection_sets", () => {
+    it("Should that the intersection method correctly identifies the common values between two sets and returns a new set", () => {
         const set1 = new Set()
         set1.add(1)
         set1.add(2)
@@ -99,8 +87,7 @@ describe('Set', () => {
         expect(intersectionSet.values()).toEqual(['2'])
     })
 
-    // Tests that the difference method correctly identifies the values in one set that are not in another set and returns a new set. 
-    it("test_difference_sets", () => {
+    it("Should that the difference method correctly identifies the values in one set that are not in another set and returns a new set", () => {
         const set1 = new Set()
         set1.add(1)
         set1.add(2)
@@ -111,8 +98,7 @@ describe('Set', () => {
         expect(differenceSet.values()).toEqual(['1'])
     })
 
-    // Tests that the isSubsetOf method correctly identifies if one set is a subset of another set.
-    it("test_is_subset_of", () => {
+    it("Should that the isSubsetOf method correctly identifies if one set is a subset of another set", () => {
         const set1 = new Set()
         set1.add(1)
         set1.add(2)
@@ -123,8 +109,7 @@ describe('Set', () => {
         expect(set2.isSubsetOf(set1)).toBe(true)
     })
 
-    // Tests that the isSubsetOf method correctly identifies if one set is not a subset of another set.
-    it("test_is_not_subset_of", () => {
+    it("Should that the isSubsetOf method correctly identifies if one set is not a subset of another set", () => {
         const set1 = new Set()
         set1.add(1)
         set1.add(2)
@@ -134,8 +119,7 @@ describe('Set', () => {
         expect(set2.isSubsetOf(set1)).toBe(false)
     })
 
-    // Tests that the isSubsetOf method when if this.size is greater than the otherSet size.
-    it("test_is_subset_of_when_this_size_greater_than_other_set_size", () => {
+    it("Should that the isSubsetOf method when if this.size is greater than the otherSet size", () => {
         const set1 = new Set()
         set1.size()
         const set2 = new Set()
@@ -146,8 +130,7 @@ describe('Set', () => {
         expect(set2.isSubsetOf(set1)).toBe(false)
     })
 
-    // Tests that the intersection method when if this.size is greater than the otherSet size.
-    it("test_intersection_when_this_size_greater_than_other_set_size", () => {
+    it("Should that the intersection method when if this.size is greater than the otherSet size", () => {
         const set1 = new Set()
         set1.size()
         const set2 = new Set()
