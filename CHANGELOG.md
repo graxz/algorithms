@@ -12,7 +12,7 @@
 
 - Adicionado classe `LinearSearch` para criação de uma busca linear.
 
-A busca linear é um algoritmo de busca que percorre uma lista de itens e verifica se o item buscado está na lista. As operações básicas de uma busca linear são: `search` (retornar a posição de um elemento na lista).
+A busca linear é um algoritmo de busca que percorre uma lista de itens e verifica se o item buscado está na lista, a busca linear é um algoritmo de busca simples e ineficiente pois ele percorre toda a lista até encontrar o item buscado. As operações básicas de uma busca linear são: `search` (retornar a posição de um elemento na lista).
 
 Explicação grafica de como funciona uma busca linear:
 ![image](https://user-images.githubusercontent.com/60474834/235813561-249bccc2-318f-44be-b3f0-4a01139b7ac0.png)
