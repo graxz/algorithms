@@ -117,3 +117,12 @@ A função `betterHash` é uma função de hash que recebe uma string e retorna 
 
 Explicação grafica de como funciona uma tabela hash:
 ![image](https://user-images.githubusercontent.com/60474834/235196823-f8501b02-3f8b-4aa8-81dd-ebec1b6b457a.png)
+
+#### Busca linear
+
+Adicionado classe `LinearSearch` para criação de uma busca linear.
+
+A busca linear é um algoritmo de busca que percorre uma lista de itens e verifica se o item buscado está na lista. As operações básicas de uma busca linear são: `search` (retornar a posição de um elemento na lista).
+
+Explicação grafica de como funciona uma busca linear:
+![image](https://user-images.githubusercontent.com/60474834/235813561-249bccc2-318f-44be-b3f0-4a01139b7ac0.png)
