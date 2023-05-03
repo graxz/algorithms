@@ -123,6 +123,7 @@ Explicação grafica de como funciona uma tabela hash:
 A busca linear é um algoritmo de busca que percorre uma lista de itens e verifica se o item buscado está na lista, a busca linear é um algoritmo de busca simples e ineficiente pois ele percorre toda a lista até encontrar o item buscado. As operações básicas de uma busca linear são: `search` (retornar a posição de um elemento na lista).
 
 Explicação grafica de como funciona uma busca linear:
+
 ![image](https://user-images.githubusercontent.com/60474834/235813561-249bccc2-318f-44be-b3f0-4a01139b7ac0.png)
 
 #### Busca binária
@@ -130,4 +131,5 @@ Explicação grafica de como funciona uma busca linear:
 A busca binaria é um algoritmo de busca que percorre uma lista de itens e verifica se o item buscado está na lista, a busca binaria é um algoritmo de busca eficiente pois ele divide a lista em duas partes e verifica se o item buscado está na primeira ou segunda parte da lista, se o item buscado estiver na primeira parte da lista ele descarta a segunda parte da lista e repete o processo até encontrar o item buscado. As operações básicas de uma busca binaria são: `search` (retornar a posição de um elemento na lista).
 
 Explicação grafica de como funciona uma busca binaria:
+
 ![image](https://user-images.githubusercontent.com/60474834/235822124-034198a5-ea90-4132-af6a-fce381de0587.png)
