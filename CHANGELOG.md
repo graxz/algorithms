@@ -15,7 +15,7 @@
 A busca binaria é um algoritmo de busca que percorre uma lista de itens e verifica se o item buscado está na lista, a busca binaria é um algoritmo de busca eficiente pois ele divide a lista em duas partes e verifica se o item buscado está na primeira ou segunda parte da lista, se o item buscado estiver na primeira parte da lista ele descarta a segunda parte da lista e repete o processo até encontrar o item buscado. As operações básicas de uma busca binaria são: `search` (retornar a posição de um elemento na lista).
 
 Explicação grafica de como funciona uma busca binaria:
-![image](https://user-images.githubusercontent.com/60474834/235820595-3cd612b6-33e0-4a87-be75-6ec7f82e6934.png)
+![image](https://user-images.githubusercontent.com/60474834/235822124-034198a5-ea90-4132-af6a-fce381de0587.png)
 
 ---
 
