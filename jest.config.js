@@ -17,6 +17,7 @@ module.exports = {
         "queue-priority/*.js",
         "set/*.js",
         "linear-search/*.js",
+        "binary-search/*.js",
     ],
     coverageDirectory: "__tests__/coverage",
     coverageReporters: [
