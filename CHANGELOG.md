@@ -6,6 +6,20 @@
   - `Remoção` para recursos removidos.
   - `Correção` para correções.
 
+## 1.0.11 - 2023-05-03
+
+### Implementação
+
+- Adicionado classe `JumpSearch` para criação de uma busca por salto.
+
+A busca por salto é um algoritmo de busca que percorre uma lista de itens e verifica se o item buscado está na lista, a busca por salto é um algoritmo de busca eficiente pois ele encontra o intervalo onde o item buscado está e faz uma busca linear nesse intervalo. As operações básicas de uma busca por salto são: `search` (retornar a posição de um elemento na lista).
+
+Explicação grafica de como funciona uma busca por salto:
+
+![image](https://user-images.githubusercontent.com/60474834/235977065-12129ef1-03e1-49e6-80ae-38abe8535548.png)
+
+---
+
 ## 1.0.10 - 2023-05-02
 
 ### Implementação

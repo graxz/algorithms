@@ -118,6 +118,8 @@ A função `betterHash` é uma função de hash que recebe uma string e retorna 
 Explicação grafica de como funciona uma tabela hash:
 ![image](https://user-images.githubusercontent.com/60474834/235196823-f8501b02-3f8b-4aa8-81dd-ebec1b6b457a.png)
 
+## Algoritmos
+
 #### Busca linear
 
 A busca linear é um algoritmo de busca que percorre uma lista de itens e verifica se o item buscado está na lista, a busca linear é um algoritmo de busca simples e ineficiente pois ele percorre toda a lista até encontrar o item buscado. As operações básicas de uma busca linear são: `search` (retornar a posição de um elemento na lista).
@@ -133,3 +135,11 @@ A busca binaria é um algoritmo de busca que percorre uma lista de itens e verif
 Explicação grafica de como funciona uma busca binaria:
 
 ![image](https://user-images.githubusercontent.com/60474834/235822124-034198a5-ea90-4132-af6a-fce381de0587.png)
+
+#### Busca por salto
+
+A busca por salto é um algoritmo de busca que percorre uma lista de itens e verifica se o item buscado está na lista, a busca por salto é um algoritmo de busca eficiente pois ele encontra o intervalo onde o item buscado está e faz uma busca linear nesse intervalo. As operações básicas de uma busca por salto são: `search` (retornar a posição de um elemento na lista).
+
+Explicação grafica de como funciona uma busca por salto:
+
+![image](https://user-images.githubusercontent.com/60474834/235977065-12129ef1-03e1-49e6-80ae-38abe8535548.png)
