@@ -16,6 +16,7 @@ module.exports = {
         "hash-table/*.js",
         "queue-priority/*.js",
         "set/*.js",
+        "linear-search/*.js",
     ],
     coverageDirectory: "__tests__/coverage",
     coverageReporters: [

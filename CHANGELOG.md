@@ -6,6 +6,19 @@
   - `Remoção` para recursos removidos.
   - `Correção` para correções.
 
+## 1.0.9 - 2023-05-02
+
+### Implementação
+
+- Adicionado classe `LinearSearch` para criação de uma busca linear.
+
+A busca linear é um algoritmo de busca que percorre uma lista de itens e verifica se o item buscado está na lista. As operações básicas de uma busca linear são: `search` (retornar a posição de um elemento na lista).
+
+Explicação grafica de como funciona uma busca linear:
+![image](https://user-images.githubusercontent.com/60474834/235813561-249bccc2-318f-44be-b3f0-4a01139b7ac0.png)
+
+---
+
 ## 1.0.8 - 2023-04-28
 
 ### Implementação
