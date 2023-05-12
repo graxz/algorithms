@@ -6,6 +6,20 @@
   - `Remoção` para recursos removidos.
   - `Correção` para correções.
 
+## 1.0.12 - 2023-05-12
+
+### Implementação
+
+- Adicionado classe `TernarySearch` para criação de uma busca ternaria.
+
+A busca ternaria é um algoritmo de busca que percorre uma lista de itens e verifica se o item buscado está na lista, a busca ternaria é um algoritmo de busca eficiente pois ele divide a lista em três partes e verifica se o item buscado está na primeira, segunda ou terceira parte da lista, se o item buscado estiver na primeira parte da lista ele descarta a segunda e terceira parte da lista e repete o processo até encontrar o item buscado. As operações básicas de uma busca ternaria são: `search` (retornar a posição de um elemento na lista).
+
+Explicação grafica de como funciona uma busca ternaria:
+
+![image](https://github.com/graxz/algorithms/assets/60474834/d11d8777-3675-4dcb-b5d6-13489ee983a8)
+
+---
+
 ## 1.0.11 - 2023-05-03
 
 ### Implementação
